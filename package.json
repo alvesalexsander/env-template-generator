@@ -1,6 +1,6 @@
 {
   "name": "env-template-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto generate .env template files for your project. With recursive and file modes.",
   "main": "./lib/index.js",
   "scripts": {
