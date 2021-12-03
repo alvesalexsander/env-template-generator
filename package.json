@@ -2,10 +2,14 @@
   "name": "env-template-generator",
   "version": "1.0.0",
   "description": "Auto generate .env template files for your project. With recursive and file modes.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "env-template-generator": "./bin/main.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alvesalexsander/env-template-generator.git"
